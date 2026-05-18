@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1 | Dashboard Plugin for Chrome Prototype</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<a href="index.html" class="floating-back-btn">
+    <span>←</span>
+    <p>Kembali</p>
+</a>
+    <nav class="site-nav">
+        <div class="nav-links">
+            <a href="index.html">Beranda</a>
+            <a href="index.html#project">Semua Project</a>
+        </div>
+
+        <button id="themeToggle" class="theme-toggle">☾</button>
+    </nav>
+
+    <main class="project-page">
+        <section class="container reveal project-layout">
+
+            <div class="project-info">
+                <p class="project-badge">Prototype Dashboard</p>
+
+                <h1>Dashboard Plugin for Chrome Prototype</h1>
+
+                <p>
+                    Dashboard plugin untuk browser Chrome dengan berbagai fitur utilitas
+                    yang dirancang untuk meningkatkan produktivitas pengguna. Dibuat untuk
+                    dipasang sebagai ekstensi di Chrome, dashboard ini menyediakan akses cepat
+                    ke informasi cuaca, pelacak anggaran, catatan, dan mini game sederhana.
+                </p>
+
+                <ul class="project-list">
+                    <li>Cuaca Hari ini</li>
+                    <li>Budget Tracker</li>
+                    <li>Mini Games</li>
+                    <li>Link akses : https://jehow123.github.io/TheDashboard3/</li>
+                </ul>
+
+                <div class="project-actions">
+                    <button class="btn btn-primary fullscreen-btn"
+                        data-target="fullscreenBox2">
+                        View Fullscreen
+                    </button>
+                </div>
+            </div>
+
+            <div class="project-preview project-iframe project-fullscreen"
+                id="fullscreenBox2">
+
+                <iframe
+                    src="https://jehow123.github.io/TheDashboard3/"
+                    title="Dashboard Plugin for Chrome Prototype"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
